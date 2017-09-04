@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="DialogWindowTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:textColor">@color/dialog_title_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/border_bottom</item>
+    </style>
+
+    <style name="CustomCirtruDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@color/dialog_background_pre_v14_color</item>
+    </style>
+
+</resources>

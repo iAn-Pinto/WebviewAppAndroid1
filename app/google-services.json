@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "629355592388",
+    "firebase_url": "https://cirtru-78422.firebaseio.com",
+    "project_id": "cirtru-78422",
+    "storage_bucket": "cirtru-78422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629355592388:android:3d6e28445943b25d",
+        "android_client_info": {
+          "package_name": "com.cirtru.androidApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629355592388-n8n49sakkue1q567dm1dolst95bdr2hn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cirtru.androidApp",
+            "certificate_hash": "8477890aead658c13505f317f76f5ed26f7f543e"
+          }
+        },
+        {
+          "client_id": "629355592388-915cqcnv5rm6kkt01fm4o32ud3tn9gai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8KqnNmDPwf_yjW3grXhdVlb5XiaQC0RI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629355592388-915cqcnv5rm6kkt01fm4o32ud3tn9gai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
