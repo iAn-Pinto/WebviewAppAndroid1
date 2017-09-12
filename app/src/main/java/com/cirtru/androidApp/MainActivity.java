@@ -66,11 +66,16 @@ public class MainActivity extends AppCompatActivity {
         cirtruWebView = (WebView) findViewById(R.id.cirtru_webview);
         cirtruWebView.loadUrl("https://www.cirtru.com");
         WebSettings mWebSettings = cirtruWebView.getSettings();
+
+        mWebSettings.setLoadWithOverviewMode(true);
+        mWebSettings.setUseWideViewPort(true);
+
         mWebSettings.setJavaScriptEnabled(true);
         mWebSettings.setLoadWithOverviewMode(true);
         mWebSettings.setAllowFileAccess(true);
         mWebSettings.setDomStorageEnabled(true);
         mWebSettings.setDatabaseEnabled(true);
+
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
             mWebSettings.setDatabasePath("/data/data/" + cirtruWebView.getContext().getPackageName() + "/databases/");
         }
